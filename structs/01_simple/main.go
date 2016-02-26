@@ -9,8 +9,6 @@ type person struct {
 	age   int
 }
 
-type DoubleZero
-
 func main() {
 	p1 := person{"pepe", "trueno", 22}
 	fmt.Println(p1.first, p1.last, p1.age)
