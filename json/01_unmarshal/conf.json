@@ -1,0 +1,26 @@
+{
+  "Port": ":9000",
+  "DebugMode": true,
+  "ReplicationAgents":
+    [
+      {
+        "URL":  "localhost",
+        "Port": "4503"
+      },
+      {
+        "URL":  "localhost",
+        "Port": "4505"
+      }
+    ],
+  "Dispatchers":
+    [
+      {
+        "URL":  "localhost",
+        "Port": "80"
+      },
+      {
+        "URL":  "localhost",
+        "Port": "81"
+      }
+    ]
+}
