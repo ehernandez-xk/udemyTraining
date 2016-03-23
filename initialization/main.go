@@ -16,6 +16,7 @@ func init() {
 	var2 = "world" // don't do this
 
 	//Defines how many CPUs the program will use.
+	//So if there is only one goroutine executing at a certain point in time, don’t set GOMAXPROCS!
 	runtime.GOMAXPROCS(runtime.NumCPU())
 }
 
